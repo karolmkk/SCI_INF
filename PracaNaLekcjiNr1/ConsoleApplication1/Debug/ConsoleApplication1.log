@@ -1,0 +1,7 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr1\ConsoleApplication1\ConsoleApplication1.cpp(19,24): warning C4018: "<=": niezgodność typu ze znakiem/bez znaku
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr1\ConsoleApplication1\ConsoleApplication1.cpp(36,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr1\ConsoleApplication1\ConsoleApplication1.cpp(57,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr1\ConsoleApplication1\ConsoleApplication1.cpp(73,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr1\ConsoleApplication1\ConsoleApplication1.cpp(32): warning C4715: "szyfr_cezara”: niewszystkie ścieżki kodu zwracają wartość
+  ConsoleApplication1.vcxproj -> C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr1\ConsoleApplication1\Debug\ConsoleApplication1.exe
