@@ -32,8 +32,16 @@ string szyfr_cezara(string tekst, int x)
 }
 
 string szyfr_przestawieniowy(string tekst) {
+	
+	
+	
 	string szyfr(tekst.length(), '.');
+	
+	
+	
 	for (int i = 0; i < tekst.length(); i++) {
+		
+		
 		if (i % 2 == 0) {
 			szyfr[i + 1] = tekst[i];
 		}
@@ -41,19 +49,34 @@ string szyfr_przestawieniowy(string tekst) {
 			szyfr[i - 1] = tekst[i];
 		}
 	}
+	
+	
 	if (tekst.length() % 2 == 1) {
 		szyfr[tekst.length() - 1] = tekst[tekst.length() - 1];
 	}
+	
+	
 	return szyfr;
 }
 
 
 string poloczenie(string tekst) {
+	
+	
+	
 	tekst = szyfr_przestawieniowy(tekst);
 	return szyfr_cezara(tekst, x);
+
+
 }
-string cof_przes(string tekst) {
+string cofanie_przestawieniowe(string tekst) {
+	
+	
+	
 	string szyfr(tekst.length(), '.');
+	
+	
+	
 	for (int i = 0; i < tekst.length(); i++) {
 		if (i % 2 == 0) {
 			szyfr[i] = tekst[i + 1];
@@ -65,11 +88,15 @@ string cof_przes(string tekst) {
 	if (tekst.length() % 2 == 1) {
 		szyfr[tekst.length() - 1] = tekst[tekst.length() - 1];
 	}
+	
+	
 	return szyfr;
 }
 
 
 string cofanie_skracania(string tekst, int x) {
+	
+	
 	for (int i = 0; i < tekst.length(); i++) {
 		if (tekst[i] > 123 || tekst[i] < 96) {
 			tekst[i] = tekst[i];
@@ -81,6 +108,8 @@ string cofanie_skracania(string tekst, int x) {
 			tekst[i] = tekst[i] - x;
 		}
 	}
+	
+	
 	return tekst;
 }
 
@@ -89,12 +118,17 @@ string cofanie_skracania(string tekst, int x) {
 
 
 string cofnij(string tekst, int x) {
+	
+	
 	if (x == 0) {
-		return cof_przes(tekst);
+		return cofanie_przestawieniowe(tekst);
 	}
-	string odszyfrowanie = cofanie_skracania(tekst, x) + "     " + cof_przes(cofanie_skracania(tekst, x)); ;
+	string odszyfrowanie = cofanie_skracania(tekst, x) + "     " + cofanie_przestawieniowe(cofanie_skracania(tekst, x)); ;
 	return odszyfrowanie;
+
+
 }
+
 int main()
 {
 
