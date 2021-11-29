@@ -1,0 +1,27 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.h(9,7): error C2143: błąd składniowy: brakuje „;” przed „<”
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.h(9,7): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.h(9,38): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\ConsoleApplication1.cpp(19,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\ConsoleApplication1.cpp(98,12): error C2039: „generowanie_klucza”: nie jest składową elementu „klucze”
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.h(3): message : zobacz deklarację „klucze”
+  klucze.cpp
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.h(9,7): error C2143: błąd składniowy: brakuje „;” przed „<”
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.h(9,7): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.h(9,38): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(25,26): error C2039: „generowanie_klucza”: nie jest składową elementu „klucze”
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.h(3): message : zobacz deklarację „klucze”
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(29,13): error C2065: "p": niezadeklarowany identyfikator
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(29,10): error C3861: "_p": identyfikatora nie odnaleziono
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(31,13): error C2065: "q": niezadeklarowany identyfikator
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(31,10): error C3861: "q_": identyfikatora nie odnaleziono
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(33,21): error C2065: "n": niezadeklarowany identyfikator
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(33,10): error C3861: "robienie_n": identyfikatora nie odnaleziono
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(35,26): error C2065: "eul": niezadeklarowany identyfikator
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(35,10): error C3861: "robienie_eulera": identyfikatora nie odnaleziono
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(37,24): error C2065: "d": niezadeklarowany identyfikator
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(37,10): error C3861: "generowanie_d": identyfikatora nie odnaleziono
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(40,32): error C3861: "klucz_publiczny": identyfikatora nie odnaleziono
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(46,31): error C3861: "klucz_prywatny": identyfikatora nie odnaleziono
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr3\ConsoleApplication1\klucze.cpp(66,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  Generowanie kodu...
