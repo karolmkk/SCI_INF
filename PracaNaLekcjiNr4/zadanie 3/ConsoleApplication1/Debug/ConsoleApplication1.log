@@ -1,6 +1,2 @@
 ﻿  ConsoleApplication1.cpp
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\ConsoleApplication1.cpp(19,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\ConsoleApplication1.cpp(23,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\ConsoleApplication1.cpp(25,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\ConsoleApplication1.cpp(32,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
   ConsoleApplication1.vcxproj -> C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\Debug\ConsoleApplication1.exe
