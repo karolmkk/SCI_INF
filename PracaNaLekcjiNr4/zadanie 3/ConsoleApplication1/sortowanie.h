@@ -2,10 +2,6 @@
 class sortowanie
 {
 public:
-	void tablica_liczb();
-
-
-
-
+	void tablice_liczb();
 };
 
