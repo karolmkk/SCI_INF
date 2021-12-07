@@ -2,6 +2,9 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <cstdlib>
+#include <cstdio>
+#include <ctime>
 using namespace std;
 class sortowanie
 {

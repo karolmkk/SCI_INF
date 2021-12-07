@@ -1,12 +1,16 @@
 #include "sortowanie.h"
 #include <iostream>
 #include <vector>
+#include <cstdlib>
+#include <cstdio>
+#include <ctime>
 #include <algorithm>
 using namespace std;
 vector <int> sortowanie::losowanie() {
 	int x = 0;
 	int i;
 	int odp;
+	srand(time(NULL));
 	for (i = 0; i < 100; i++)
 	{
 		x = rand() % 1000;

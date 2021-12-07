@@ -1,5 +1,8 @@
 ﻿#include <iostream>
 #include <vector>
+#include <cstdlib>
+#include <cstdio>
+#include <ctime>
 #include <algorithm>
 #include "sortowanie.h"
 using namespace std;
