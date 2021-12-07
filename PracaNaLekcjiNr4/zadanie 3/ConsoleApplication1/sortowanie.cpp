@@ -24,7 +24,7 @@ void sortowanie::pokazywanie() {
 	liczby = losowanie();
 	for (int i = 0; i < liczby.size(); i++)
 	{
-		cout << "liczba nr " << i + 1 << ": " << liczby[i] << endl;
+		cout << "[NR] " << i + 1 << " :" << liczby[i] << endl;
 	}
 }
 
