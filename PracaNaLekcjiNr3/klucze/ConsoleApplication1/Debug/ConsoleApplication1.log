@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+  klucze.cpp
+C:\Users\karol\OneDrive\Pulpit\klucze\ConsoleApplication1\klucze.cpp(11,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  Generowanie kodu...
+C:\Users\karol\OneDrive\Pulpit\klucze\ConsoleApplication1\klucze.cpp(62): warning C4715: "klucze::odwrocone_modulo”: niewszystkie ścieżki kodu zwracają wartość
+  ConsoleApplication1.vcxproj -> C:\Users\karol\OneDrive\Pulpit\klucze\ConsoleApplication1\Debug\ConsoleApplication1.exe

@@ -1,8 +1,11 @@
-﻿  sortowanie.cpp
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(20,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(27,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(29,22): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(36,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(42,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(54,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+﻿  ConsoleApplication1.cpp
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\ConsoleApplication1.cpp(9,6): warning C4101: "odp": lokalna zmienna, do której nie istnieje odwołanie
+  sortowanie.cpp
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(17,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(24,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(26,22): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(33,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(39,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(51,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Generowanie kodu...
   ConsoleApplication1.vcxproj -> C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\Debug\ConsoleApplication1.exe
