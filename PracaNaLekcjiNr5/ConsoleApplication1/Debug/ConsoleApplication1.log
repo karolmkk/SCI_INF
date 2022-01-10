@@ -1,0 +1,7 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(7,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(9,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(20,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(39,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(38,6): warning C4101: "odp": lokalna zmienna, do której nie istnieje odwołanie
+  ConsoleApplication1.vcxproj -> C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\Debug\ConsoleApplication1.exe
