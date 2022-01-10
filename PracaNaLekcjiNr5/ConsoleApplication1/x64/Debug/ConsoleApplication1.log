@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(15,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(41,22): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+  ConsoleApplication1.vcxproj -> C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
