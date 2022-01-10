@@ -1,32 +1,11 @@
 #include "sortowanie.h"
 #include <iostream>
 #include <vector>
-#include <cstdlib>
-#include <cstdio>
 #include <ctime>
 #include <algorithm>
 using namespace std;
-vector <int> sortowanie::losowanie() {
-	int x = 0;
-	int i;
-	int odp;
-	srand(time(NULL));
-	for (i = 0; i < 100; i++)
-	{
-		x = rand() % 1000;
-		liczby.push_back(x);
-	}
-	cout << "[LICZBY PRZED SORTOWANIEM]:\n";
-	return liczby;
-}
-void sortowanie::pokazywanie() {
 
-	liczby = losowanie();
-	for (int i = 0; i < liczby.size(); i++)
-	{
-		cout << "[NR] " << i + 1 << " :" << liczby[i] << endl;
-	}
-}
+
 
 vector <int> sortowanie::bobelkowanie(vector <int> liczby) {
 
@@ -37,10 +16,6 @@ vector <int> sortowanie::bobelkowanie(vector <int> liczby) {
 				swap(liczby[j - 1], liczby[j]);
 			}
 		}
-	}
-	cout << "[LICZBY ZBABELKOWANE]:\n";
-	for (int i = 0; i < liczby.size(); i++) {
-		cout << "liczba nr " << i + 1 << ": " << liczby[i] << endl;
 	}
 	return liczby;
 }
@@ -57,11 +32,43 @@ vector <int> sortowanie::wstawienie(vector <int> liczby) {
 			}
 			liczby[j + 1] = pom;
 		}
-		cout << "[LICZBY WSTAWIONE]:\n";
-		for (int i = 0; i < liczby.size(); i++) {
-			cout << "liczba nr " << i + 1 << ": " << liczby[i] << endl;
-		}
 		return liczby;
+}
+vector <int> sortowanie::wybor(vector <int> liczby) {
+	int index;
+	for (int i = 0; i < liczby.size() - 1; i++)
+	{
+		index = i;
+		for (int j = i + 1; j < liczby.size(); j++)
+			if (liczby[j] < liczby[index])
+				index = j;
+		swap(liczby[i], liczby[index]);
+	}
+	return liczby;
+}
+void sortowanie::quicksort(int left, int right, vector<int>& vec) {
+	int i = (left + right) / 2;
+	int piwot = vec[i];
+	vec[i] = vec[right];
+	int j = left;
+	for (int i = left; i < right - 1; i++)
+	{
+		if (vec[i] < piwot)
+		{
+			int temp = vec[i];
+			vec[i] = vec[j];
+			vec[j] = temp;
+			j++;
+		}
+	}
+	vec[right] = vec[j];
+	vec[j] = piwot;
+	if (left < j - 1) {
+		quicksort(left, j - 1, vec);
+	}
+	if (j + 1 < right) {
+		quicksort(j + 1, right, vec);
+	}
 }
 
 

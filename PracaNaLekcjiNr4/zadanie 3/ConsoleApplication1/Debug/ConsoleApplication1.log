@@ -1,10 +1,3 @@
-﻿  sortowanie.cpp
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(13,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(12,6): warning C4101: "odp": lokalna zmienna, do której nie istnieje odwołanie
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(25,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(33,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(35,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(42,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(49,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\sortowanie.cpp(61,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+﻿  ConsoleApplication1.cpp
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\ConsoleApplication1.cpp(17,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
   ConsoleApplication1.vcxproj -> C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr4\zadanie 3\ConsoleApplication1\Debug\ConsoleApplication1.exe
