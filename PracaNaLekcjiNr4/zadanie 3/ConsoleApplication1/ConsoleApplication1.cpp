@@ -13,9 +13,9 @@ int main()
 	int x = 0;
 	int i;
 	srand(time(NULL));
-	for (i = 0; i < 10000; i++)
+	for (i = 0; i < 20000; i++)
 	{
-		x = rand() % 100000;
+		x = rand() % 200000;
 		val.push_back(x);
 	}
 
