@@ -4,9 +4,6 @@
 #include <ctime>
 #include <algorithm>
 using namespace std;
-
-
-
 vector <int> sortowanie::bobelkowanie(vector <int> liczby) {
 
 	for (int d = 0; d < liczby.size(); d++) {

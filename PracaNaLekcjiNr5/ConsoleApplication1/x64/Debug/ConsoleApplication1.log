@@ -1,4 +1,11 @@
 ﻿  ConsoleApplication1.cpp
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(15,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
-C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(41,22): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(18,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(55,26): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(70,26): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(74,50): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\ConsoleApplication1.cpp(81,72): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  sortowanie.cpp
+  Generowanie kodu...
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\sortowanie.cpp(90): warning C4715: "sortowanie::finding”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\sortowanie.cpp(102): warning C4715: "sortowanie::recurtion”: niewszystkie ścieżki kodu zwracają wartość
   ConsoleApplication1.vcxproj -> C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr5\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

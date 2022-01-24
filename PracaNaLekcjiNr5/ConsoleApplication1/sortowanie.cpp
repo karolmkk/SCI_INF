@@ -7,7 +7,7 @@ using namespace std;
 
 
 
-vector <int> sortowanie::bobelkowanie(vector <int> liczby) {
+vector <int> sortowanie::bobelkowanie(vector <int>& liczby) {
 
 	for (int d = 0; d < liczby.size(); d++) {
 
@@ -19,7 +19,7 @@ vector <int> sortowanie::bobelkowanie(vector <int> liczby) {
 	}
 	return liczby;
 }
-vector <int> sortowanie::wstawienie(vector <int> liczby) {
+vector <int> sortowanie::wstawienie(vector <int>& liczby) {
 	int pom, j;
 	for (int i = 1; i < liczby.size(); i++)
 	{
@@ -34,7 +34,7 @@ vector <int> sortowanie::wstawienie(vector <int> liczby) {
 	}
 	return liczby;
 }
-vector <int> sortowanie::wybor(vector <int> liczby) {
+vector <int> sortowanie::wybor(vector <int>& liczby) {
 	int index;
 	for (int i = 0; i < liczby.size() - 1; i++)
 	{
@@ -69,6 +69,36 @@ void sortowanie::quicksort(int left, int right, vector<int>& vec) {
 	if (j + 1 < right) {
 		quicksort(j + 1, right, vec);
 	}
+
+}
+void sortowanie::show_value(vector <int>& liczby) {
+	for (int i = 0; i < liczby.size(); i++) {
+		cout  << liczby[i] << "      ";
+	}
+	cout << endl;
+}
+int sortowanie::finding(vector <int>& liczby, int index) {
+	for (int i = 0; i < liczby.size();) {
+		if (liczby[i] == w) {
+			index = i + 1;
+			return index;
+		}
+		else {
+			i++;
+		}
+	}
+}
+int sortowanie:: recurtion(int left, int right, int index) {
+	int mid = (left + right) / 2;
+	temp++;
+	if (right < left) {
+		return -1;
+	}
+	if (val[mid] == index) {
+		return mid + 1;
+	}
+	else if (mid < index) recurtion(mid + 1, right, index);
+	else if (mid > index) recurtion(left, mid - 1, index);
 }
 
 

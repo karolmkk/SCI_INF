@@ -1,50 +1,92 @@
 ﻿#include <iostream>
 #include <vector>
 #include <ctime>
-#include <chrono>
 #include <algorithm>
+#include <chrono>
 #include "sortowanie.h"
 using namespace std;
+sortowanie obj;
+
+
 
 int main()
 {
-	vector <int> val;
-	sortowanie obj;
+	
+	
 	int x = 0;
 	int i;
 	srand(time(NULL));
 	for (i = 0; i < 1000; i++)
 	{
 		x = rand() % 10000;
-		val.push_back(x);
+		obj.val.push_back(x);
 	}
-	auto start = std::chrono::steady_clock::now();
-	obj.bobelkowanie(val);
-	auto end = std::chrono::steady_clock::now();
-	chrono::duration<double> elapsed_seconds = end - start;
-	cout << "---BubbleSort---- \nElapsed time: " << elapsed_seconds.count() << " s\n";
+	int odp;
+	while (true) {
+		cout << "------Choice_Answer-------\n1-show_value\n2-BubbleSort\n3-Instertion\n4-Selection\n5-QuickSort\n6-finding\n7-recurance_finding\n";
+		cin >> odp;
 
-	start = std::chrono::steady_clock::now();
-	obj.wstawienie(val);
-	end = std::chrono::steady_clock::now();
-	elapsed_seconds = end - start;
-	cout << "----Insertion---- \nElapsed time: " << elapsed_seconds.count() << " s\n";
-	
+		if (odp == 1) {
+			obj.show_value(obj.val);
+		}
+		else if (odp == 2) {
+			auto start = std::chrono::steady_clock::now();
+			obj.bobelkowanie(obj.val);
+			auto end = std::chrono::steady_clock::now();
+			chrono::duration<double> elapsed_seconds = end - start;
+			cout << "---BubbleSort---- \nElapsed time: " << elapsed_seconds.count() << " s\n";
+		}
+		else if (odp == 3) {
+			auto start = std::chrono::steady_clock::now();
+			obj.wstawienie(obj.val);
+			auto end = std::chrono::steady_clock::now();
+			chrono::duration<double> elapsed_seconds = end - start;
+			cout << "----Insertion---- \nElapsed time: " << elapsed_seconds.count() << " s\n";
+		}
+		else if (odp == 4) {
+			auto start = std::chrono::steady_clock::now();
+			obj.wybor(obj.val);
+			auto end = std::chrono::steady_clock::now();
+			chrono::duration<double> elapsed_seconds = end - start;
+			cout << "----Selection---- \nElapsed time: " << elapsed_seconds.count() << " s\n";
+		}
+		else if (odp == 5) {
+			int s;
+			s = obj.val.size() - 1;
+			auto start = std::chrono::steady_clock::now();
+			obj.quicksort(0, s, obj.val);
+			auto end = std::chrono::steady_clock::now();
+			chrono::duration<double> elapsed_seconds = end - start;
+			cout << "----QuickSort---- \nElapsed time: " << elapsed_seconds.count() << " s\n";
+		}
+		else if (odp == 6) {
+			cout << "wprowadz wartosc\n";
+			cin >> obj.w;
+			cout << "index nr: " << obj.finding(obj.val, obj.w) << endl;
 
-	start = std::chrono::steady_clock::now();
-	obj.wybor(val);
-	end = std::chrono::steady_clock::now();
-	elapsed_seconds = end - start;
-	cout << "----Selection---- \nElapsed time: " << elapsed_seconds.count() << " s\n";
-	
-	int s;
-	s = (val.size() - 1);
-	start = std::chrono::steady_clock::now();
-	obj.quicksort(0, s, val);
-	end = std::chrono::steady_clock::now();
-	elapsed_seconds = end - start;
-	cout << "----QuickSort---- \nElapsed time: " << elapsed_seconds.count() << " s\n";
-	
+		}
+		else if (odp == 7) {
+			int s;
+			s = obj.val.size() - 1;
+			cout << "wprowadz wartosc\n";
+			cin >> obj.w;
+			int w;
+			w = obj.recurtion(0, obj.val.size() - 1, obj.w);
+			if (w == -1) {
+
+				cout << "nic nie znaleziono\n";
+			}
+			else {
+				cout << "liczba wywolan: " << obj.temp << endl;
+				cout << "index nr : " << obj.recurtion(0, obj.val.size() - 1, obj.w) << endl;
+			}
+		}
+		else {
+			cout << "ERROR" << endl;
+		}
+
+
+	}
 
 }
 
