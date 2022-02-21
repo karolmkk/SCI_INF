@@ -94,11 +94,11 @@ int sortowanie:: recurtion(int left, int right, int index) {
 	if (right < left) {
 		return -1;
 	}
-	if (val[mid] == index) {
-		return mid + 1;
+	else if (val[mid] == index) {
+		return mid;
 	}
-	else if (mid < index) recurtion(mid + 1, right, index);
-	else if (mid > index) recurtion(left, mid - 1, index);
+	else if (val.at(mid) < index) recurtion(mid + 1, right, index);
+	else if (val.at(mid) > index) recurtion(left, mid - 1, index);
 }
 
 

@@ -72,14 +72,9 @@ int main()
 			cin >> obj.w;
 			int w;
 			w = obj.recurtion(0, obj.val.size() - 1, obj.w);
-			if (w == -1) {
-
-				cout << "nic nie znaleziono\n";
-			}
-			else {
-				cout << "liczba wywolan: " << obj.temp << endl;
-				cout << "index nr : " << obj.recurtion(0, obj.val.size() - 1, obj.w) << endl;
-			}
+			cout << "liczba wywolan: " << obj.temp << endl;
+			cout << "index nr : " << obj.recurtion(0, obj.val.size() - 1, obj.w) << endl;
+			
 		}
 		else {
 			cout << "ERROR" << endl;
