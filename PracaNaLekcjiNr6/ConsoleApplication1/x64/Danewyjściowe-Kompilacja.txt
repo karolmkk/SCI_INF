@@ -1,0 +1,6 @@
+﻿Rozpoczęto kompilację...
+1>------ Kompilacja rozpoczęta: Projekt: ConsoleApplication1, Konfiguracja: Debug x64 ------
+1>ConsoleApplication1.cpp
+1>C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr6\ConsoleApplication1\ConsoleApplication1.cpp(8): error C4700: użycie niezainicjowanej zmiennej lokalnej "size"
+1>Kompilowanie projektu „ConsoleApplication1.vcxproj” wykonane — NIEPOWODZENIE.
+========== Kompilacja: 0 zakończono powodzeniem, 1 zakończono niepowodzeniem, 0 zaktualizowano, 0 pominięto ==========

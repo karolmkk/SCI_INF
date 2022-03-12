@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr6\ConsoleApplication1\vector.h(10,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr6\ConsoleApplication1\ConsoleApplication1.cpp(33,6): warning C4101: "val": lokalna zmienna, do której nie istnieje odwołanie
+  ConsoleApplication1.vcxproj -> C:\Users\karol\OneDrive\Pulpit\Szczecin\szkoła\INF\SCI_INF\PracaNaLekcjiNr6\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
