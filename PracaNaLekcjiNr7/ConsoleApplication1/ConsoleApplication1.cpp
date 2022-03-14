@@ -51,9 +51,11 @@ void remove() {
         temp = temp->nextElement; 
         temp2 = temp2->nextElement;
     }
-    delete[] temp2;
-    temp->nextElement = nullptr;
-    tail = temp->nextElement;
+    if (temp != nullptr) {
+        delete[] temp2;
+        temp->nextElement = nullptr;
+        tail = temp;
+    }
 }
 void Index(int val) {
     ListElement* temp = head;
